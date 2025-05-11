@@ -1,0 +1,268 @@
+@import url("./efeitos.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+.body {
+  background-color: #41232a;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #41232a;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: inline-block;
+  background-color: #41232a;
+  z-index: 2;
+}
+
+.link {
+  position: relative;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 3.2rem;
+  padding: 1.5rem;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.home {
+  font-size: 4.8rem;
+  padding-right: 100rem;
+  position: relative;
+}
+
+.landing-page {
+  width: 100%;
+  height: 100%;
+}
+
+.vinheria {
+  width: 100%;
+  animation: zoomBackground 20s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.title {
+  position: absolute;
+  top: 40%;
+  left: 22.5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 12.8rem;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.main {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  padding-top: 100px;
+}
+
+.container {
+  margin: 20rem 40rem;
+  width: 100%;
+}
+
+.item {
+  width: 20%;
+  height: 15%;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 64px;
+}
+
+.vinho {
+  width: 6rem;
+  padding: 1rem 3rem;
+}
+
+.name {
+  padding: 3rem;
+}
+
+.container-video {
+  position: absolute;
+  top: 145%;
+  left: 45%;
+  text-align: center;
+}
+
+.text {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #ffffff;
+}
+
+/* css do contato.html*/
+.titulo-contato {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0 1rem;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.form-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-section {
+  width: 100%;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.contact-form,
+.imagem-contato {
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+  box-sizing: border-box;
+  margin: 10px;
+  height: 400px;
+}
+
+.contact-form label {
+  font-size: 2rem;
+  color: #000000;
+  display: block;
+  margin-top: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.contact-form button {
+  background-color: #41232a;
+  color: #ffffff;
+  border: none;
+  padding: 1.2rem 2rem;
+  font-size: 2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: left;
+  height: auto;
+}
+
+.imagem-contato {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.footer {
+  background-color: #41232a;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: Arial, sans-serif;
+}
+
+/* css do sobre */
+
+.resumo {
+  margin: 0;
+  width: 1000px;
+  height: 100%;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+#titulo-resumo-1 {
+  color: #41232a;
+  text-align: center;
+}
+
+.titulo-resumo-2 {
+  color: #41232a;
+  text-align: center;
+}
+
+.paragrafos {
+  text-align: justify;
+  padding: 30px;
+}
+
+.footer {
+  background-color: #2b1d0e;
+  color: #fff;
+  padding: 30px 0 10px 0;
+  font-family: "Georgia", serif;
+  font-size: 12px;
+  width: 100%;
+}
+
+.footer-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 50%;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  color: #9c5c6b;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #eee;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+  color: #d9a75f;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}

@@ -1,0 +1,42 @@
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0.1rem; /* controla a distância da linha abaixo do texto */
+  width: 0;
+  height: 3px;
+  background-color: white; /* cor do underline */
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.home:hover::first-letter {
+  color: black;
+  font-size: 5.2rem;
+}
+
+.item:hover {
+  transform: translate(0, -10px);
+  transition: all 0.5s ease;
+}
+
+.video:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+  border: 1px solid white;
+}
+
+@keyframes zoomBackground {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
