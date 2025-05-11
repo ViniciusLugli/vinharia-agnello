@@ -1,0 +1,19 @@
+#titulo-resumo-1 {
+    transition: .5s;
+}
+
+h2 {
+    transition: .5s;
+}
+
+#titulo-resumo-1:hover {
+    background-color: #41232a;
+    color: #fff;
+    border-radius: 10px;
+}
+
+h2:hover {
+    background-color: #41232a;
+    color: #fff;
+    border-radius: 10px;
+}
