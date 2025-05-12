@@ -52,7 +52,7 @@ Efeito ao passar o mouse sobre o título da página de contato, com o :hover ela
 
 ## Link para o site:
 
-https://viniciuslugli.github.io/Checkpoint1-front-end/vinheria-agnello/src/pages/contato.html
+https://viniciuslugli.github.io/vinharia-agnello/
 
 ## ✅ Checklist do Check-point 02
 
