@@ -34,6 +34,14 @@ Zoom suave em vídeos ao passar o mouse, com borda de destaque.
 
 Animação leve de zoom na imagem de fundo, utilizando @keyframes para criar movimento contínuo e sutil.
 
+Efeito ao clicar nos campos de input e texto do formulário de contato., com o :focus.
+
+Animação ao clicar no botão de enviar, com o pulse o botão vai aumentar e depois diminuir e fica com um tom rosado.
+
+Efeito na imagem do formulário de contato, com o :hover ela gira levemente, aumenta de tamanho e ganha um leve brilho.
+
+Efeito ao passar o mouse sobre o título da página de contato, com o :hover ela aumenta de tamanho e fica com um tom claro.
+
 ## Integrantes:
 
 - Lucas Villani
