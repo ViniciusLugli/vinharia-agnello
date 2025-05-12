@@ -1,3 +1,10 @@
+#title-sobre-nos {
+    animation-name: piscar;
+    animation-duration: 5s;
+    animation-delay: .5s;
+    animation-iteration-count: initial;
+}
+
 #titulo-resumo-1 {
     transition: .5s;
 }
@@ -16,4 +23,25 @@ h2:hover {
     background-color: #41232a;
     color: #fff;
     border-radius: 10px;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: .1;
+    }
+
+    25% {
+        opacity: .3;
+    }
+
+    50% {
+        opacity: .5;
+    }
+
+    75% {
+        opacity: .8;
+    }
+    100% {
+        opacity: 1;
+    }
 }
