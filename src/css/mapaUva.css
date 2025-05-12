@@ -67,7 +67,7 @@
   max-width: 900px;
   margin: 50px auto 10px auto;
   background-color: #fff;
-  border: 2px solid #d9a75f;
+  border: 3px solid #d9a75f;
   border-top: 60px ; 
   border-radius: 10px;
   padding: 4rem 2rem;
@@ -105,4 +105,7 @@ ul li {
   font-size: medium;
 }
 
-  
+.divisao {
+  margin: 40px ;
+  border-top: 2px solid #8b4742;
+}
