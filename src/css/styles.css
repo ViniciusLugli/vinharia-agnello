@@ -220,6 +220,8 @@
   padding: 30px;
 }
 
+/* css do footer */
+
 .footer {
   background-color: #2b1d0e;
   color: #fff;
@@ -253,10 +255,6 @@
   line-height: 1.6;
 }
 
-.footer-section a:hover {
-  text-decoration: underline;
-  color: #d9a75f;
-}
 
 .footer-bottom {
   text-align: center;

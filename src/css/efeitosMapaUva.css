@@ -1,0 +1,14 @@
+.img-uva:hover{
+    transform: scale(3);
+    transition: 1s;
+    border: 0.15px solid rgb(54, 24, 24);
+    border-radius: 3px;    
+}
+
+h2:hover {
+    background-color: #41232a;
+    color: #fff;
+    padding: 3px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
