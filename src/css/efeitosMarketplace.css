@@ -7,10 +7,10 @@
 .nav-link::before {
     content: '';
     position: absolute;
-    bottom: -5px;
+    bottom: 0px;
     left: 0;
     width: 0;
-    height: 2px;
+    height: 3px;
     background-color: #ffffff;
     transition: width 0.3s ease;
 }
@@ -50,7 +50,7 @@
     font-weight: bold;
 }
 
-/* Animação para tag do produto */
+/* Animação para tag do produto. O "Selecionado", "Novo" e "Exclusivo" */
 @keyframes tagPulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
