@@ -13,9 +13,16 @@
   width: 100%;
 }
 
+.home::first-letter {
+  display: inline-block; /* Necessário para permitir transformações */
+  transition: all 1s ease;
+}
+
 .home:hover::first-letter {
-  color: black;
-  font-size: 5.2rem;
+  color: #d9a75f;
+  transform: scale(1.3); /* Simula o aumento de tamanho */
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
 }
 
 .item:hover {
