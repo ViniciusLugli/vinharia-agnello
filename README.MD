@@ -53,13 +53,3 @@ Efeito ao passar o mouse sobre o título da página de contato, com o :hover ela
 ## Link para o site:
 
 https://viniciuslugli.github.io/vinharia-agnello/
-
-## ✅ Checklist do Check-point 02
-
-- [ ] Adição de pelo menos 3 pseudo-classes
-- [x] Uso de pelo menos 2 pseudo-elementos
-- [x] Animação com `@keyframes`
-- [x] 2 transformações (`scale`, `rotate`, etc.)
-- [x] Transições aplicadas em elementos interativos
-- [x] `efeitos.css` criado e importado
-- [ ] `README.md` atualizado com seção de efeitos
